@@ -1,0 +1,95 @@
+body{
+	font-family: 'Apple SD Gothic Neo',arial,sans-serif;
+}
+
+.title {
+	text-align: center;
+	margin-top: 140px;	
+	
+		
+}
+
+h1 span:nth-child(1){
+	color: #4285f4;
+	font-size: 80px;
+	font-weight:900;
+}
+h1 span:nth-child(2){
+	color: #ea4335;
+	font-size: 55px;
+	font-weight:700;
+	
+}
+h1 span:nth-child(3){
+	color: #fbbc05;
+	font-size: 55px;
+	font-weight:700;
+	
+	
+}
+h1 span:nth-child(4){
+	color: #4285f4;
+	font-size: 70px;
+	font-weight:600;
+	/* margin: -10px; */
+	margin-top: 50px;
+
+}
+h1 span:nth-child(5){
+	color: #34a853;
+	font-size: 45px;
+	font-weight:900;
+	
+	
+}
+h1 span:nth-child(6){
+	color: #ea4335;
+	font-size: 50px;
+	font-weight:700;
+}
+
+
+.form {
+	margin: auto;
+	max-width: 80%;
+	text-align: center;
+}
+
+.form>p {
+	margin-top: 10px;
+}
+
+#counter {
+	margin-top: 10px;
+}
+
+
+input[type='submit'], button, [aria-label] {
+	cursor: pointer;
+}
+
+#edit-box {
+	display: none;
+	max-width: 80%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+td {
+	background-color: aliceblue;
+	padding-right: 15px;
+	text-align: left;
+	word-break: break-all
+	
+}
+
+td>button {
+	width: 80px;
+	float: right;
+}
+
+
+
+.to-do {
+	background: transparent !important;
+}
